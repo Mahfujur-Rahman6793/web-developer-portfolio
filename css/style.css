@@ -92,8 +92,6 @@ nav a{
 /* end of the header part */
 /* start of the main section */
 main{
-    max-width : 1140px;
-    height: 550px;
     margin: 0 auto;
 }
 .about{
@@ -180,7 +178,7 @@ main{
     margin-bottom: 20px;
 }
 .resume-description{
-    color: var(--dark-03, #757575);
+    color: #757575;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
@@ -189,4 +187,8 @@ main{
 .download-cv{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+footer{
 }
