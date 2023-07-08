@@ -4,6 +4,9 @@ body{
 }
 header{
     background-color: #fff8f3;
+    background-image: url('../images/developer.png');
+    background-position: top left;
+    background-repeat: no-repeat;
 }
 main section{
     margin-top: 130px;
@@ -58,12 +61,12 @@ nav a{
 
 .banner-section{
     display: flex;
-    padding: 38px 38px 0px 150px;
+    padding: 38px 38px 10px 150px;
     justify-content: space-between;
     align-items: center;
-    background-image: url(../images/header_bg.png);
+    background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right  ;
 }
 .text h3{
     color: #474747;
