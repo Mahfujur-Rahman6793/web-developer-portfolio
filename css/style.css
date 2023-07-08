@@ -88,12 +88,18 @@ nav a{
 
 /* end of the header part */
 /* start of the main section */
+main{
+    max-width : 1140px;
+    height: 550px;
+    margin: 0 auto;
+}
 .about{
     width: 1140px;
     height: 550px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+    padding: 131px 156px;
 }
 .description{
     padding: 30px 156px;
@@ -102,4 +108,18 @@ nav a{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    }
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 179px;
+    margin-right: 50px;
+}
+.about-info{
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
